@@ -1,5 +1,6 @@
 body {
     font: 16px/1 Helvetica, sans-serif;
+    background:#dedede;
 }
 
 
@@ -9,7 +10,7 @@ body {
 }
 
 .photo {
-    float: left;
+
     margin: 0 2px 2px 0;
     overflow: hidden;
     height: 160px;
@@ -19,4 +20,27 @@ body {
 .photo img {
     min-width: 160px;
     max-width: 240px;
+}
+
+.iconArea
+{
+	position:relative;
+	top:-18px;
+	left:0px;
+	width:18px;
+	background-color:#dddddd;
+	cursor:pointer;
+}
+
+.photoArea
+{
+	float: left;
+	border:2px solid #aaaaaa;
+	margin: 10px;
+	padding: 5px;
+	-moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  height:160px;
 }
