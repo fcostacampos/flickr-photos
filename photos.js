@@ -1,6 +1,4 @@
 /*global jQuery*/
-document.cookie = "";
-document.cookie = null;
 
 var setupPhotos = (function ($) {
 
